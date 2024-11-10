@@ -9,3 +9,31 @@
 .newproject_container p{
     color: #333;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    /* Para dispositivos móveis */
+    .newproject_container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 3em;
+    }
+    .newproject_container h1{
+        margin-bottom: 0.5em;
+        margin-left: 60px;
+    }
+    .newproject_container p{
+        color: #333;
+        display: flex;
+        position: relative;
+        right: 20px;
+    }
+    
+    
+}
