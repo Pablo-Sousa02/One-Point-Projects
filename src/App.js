@@ -12,17 +12,17 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
 function App() {
-  // Estado para controlar o carregamento
+  
   const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect para simular o carregamento
+  
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Tempo de carregamento simulado
+    }, 2000); // 
   }, []);
 
-  // Condicional para mostrar o Loading ou o conteúdo do site
+
   if (isLoading) {
     return <Loading />;
   }

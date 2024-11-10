@@ -37,10 +37,10 @@ const styles = {
 // Animação CSS
 const spinnerStyle = document.createElement('style');
 spinnerStyle.innerHTML = `
-  @keyframes spin {
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
 `;
 document.head.appendChild(spinnerStyle);
 
