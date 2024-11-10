@@ -24,6 +24,10 @@
     margin-top: 2em;
 }
 
+.copy_right a{
+    text-decoration: none;
+}
+
 .copy_right span {
     font-weight: bold;
     color: #5ebeff;
