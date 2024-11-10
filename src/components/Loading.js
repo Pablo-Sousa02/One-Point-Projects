@@ -17,7 +17,7 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100vh',
-        backgroundColor: '#282c34', // fundo para um efeito mais escuro
+        backgroundColor: '#5ebfff', // fundo para um efeito mais escuro
     },
     spinner: {
         width: '50px',
