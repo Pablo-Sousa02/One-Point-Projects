@@ -1,0 +1,103 @@
+/* Home.module.css */
+
+.home_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center;
+    height: 100vh; /* Ocupa 100% da altura da viewport */
+    padding: 20px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    margin-left: 20%;
+}
+
+.home_container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.home_container h1 span{
+    color: #5ebeff;
+    padding: 0.2em;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.home_container p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+    color: #333;
+}
+
+.savings {
+    width: 100%;
+    max-width: 300px; 
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .home_container {
+        padding: 15px;
+        margin-right: 40%;
+        position: relative;display: flex;
+    }
+
+    .home_container h1 {
+        font-size: 2rem;
+    }
+
+    .home_container p {
+        font-size: 1rem;
+    }
+
+    .savings {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home_container h1 {
+        font-size: 1.8rem;
+    }
+
+    .home_container p {
+        font-size: 0.9rem;
+    }
+
+    .savings {
+        width: 80%;
+    }
+    .home_container {
+        padding: 15px;
+        margin-right: 50%;
+        position: relative;
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Para dispositivos móveis */
+    
+    .home_container h1 {
+        font-size: 1.5rem;
+    }
+    
+    .home_container p {
+        font-size: 0.8rem;
+    }
+    
+    .home_container a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    .home_container {
+        padding: 15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        right: 10px;
+    }
+}
