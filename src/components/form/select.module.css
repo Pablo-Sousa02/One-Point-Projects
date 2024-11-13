@@ -1,0 +1,52 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.form_control label {
+    margin-bottom: .6em;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.form_control select {
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, background-color 0.3s ease;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form_control select:focus {
+    border: 1px solid #0085dd;
+    background-color: #e6f7ff;
+    outline: none;
+}
+
+.form_control select option {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.form_control select:focus option {
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .form_control {
+        width: 50%;
+        margin-left: 1.4em;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .form_control select {
+        width: 49%;
+    }
+}
